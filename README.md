@@ -40,3 +40,7 @@ Finally, at this time this package is mostly focused on optimizing the biocrude,
 # Feedback
 -------
 If you find any bug or have any suggestion, please do file issues. I am graceful for any feedback and will do my best to improve this package.
+
+# Contact
+-------
+john dot as dot 1999 at gmail dot com
