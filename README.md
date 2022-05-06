@@ -44,3 +44,6 @@ If you find any bug or have any suggestion, please do file issues. I am graceful
 # Contact
 -------
 john dot as dot 1999 at gmail dot com
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
