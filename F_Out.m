@@ -1,11 +1,11 @@
 function fout2=foutest(x)
 Data_Out;
-
+%elemental composition
 f1=((tc1 - sum((x.*cp1)))/tc1).^2;
 f2=((th1-  sum((x.*hp1)))/th1).^2;
 f3=((to1 - sum((x.*op1)))/to1).^2;
 f4=((tn1 - sum((x.*np1)))/tn1).^2;
-
+%TBP
 f5=((max(cumsum(x( bp1(1,:)<100)))-0.76))^2;
 f6=((max(cumsum(x( bp1(1,:)<150)))-2.44))^2;
 f7=((max(cumsum(x( bp1(1,:)<200)))-6))^2;
