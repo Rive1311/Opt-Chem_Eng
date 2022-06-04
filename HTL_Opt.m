@@ -19,9 +19,9 @@ h = input('Choose Algorithm: ');
 % 2 -> Firefly 
 % 3 -> Least Squares
 % 4 -> PSO
- tic
+
 switch h
-  
+   
     
     case 1               %SQP
 
@@ -42,8 +42,8 @@ b=[sum(x0.*cp),sum(x0.*hp),sum(x0.*op),sum(x0.*np)]/(tot/100);
 fprintf(' Carbon %.2f \n Hydrogen %.2f \n Oxygen %.2f \n Nitrogen %.2f \n',b)
 fprintf(' Protein %.2f \n Carbohydrates %.2f \n Lipid %.2f \n Lignin %.2f \n',a)
 
-%writematrix(x0,'HTL_Data.xlsx','Sheet',1,'Range','B1')
-%writematrix(1/sum(x0/d),'HTL_Data.xlsx','Sheet',1,'Range','G13')
+writematrix(x0,'HTL_Data.xlsx','Sheet',1,'Range','B1')
+writematrix(1/sum(x0/d),'HTL_Data.xlsx','Sheet',1,'Range','G13')
 
 
 
@@ -56,8 +56,8 @@ for i=1:n1
     end
 end
 
-%writematrix(xo,'HTL_Data.xlsx','Sheet',1,'Range','B17')
-%writematrix(1/sum(xo/d1),'HTL_Data.xlsx','Sheet',1,'Range','G24')
+writematrix(xo,'HTL_Data.xlsx','Sheet',1,'Range','B17')
+writematrix(1/sum(xo/d1),'HTL_Data.xlsx','Sheet',1,'Range','G24')
 
 b=[sum(xo.*cp1),sum(xo.*hp1),sum(xo.*op1),sum(xo.*np1)]/(tot1/100);
 fprintf(' Carbon %.2f \n Hydrogen %.2f \n Oxygen %.2f \n Nitrogen %.2f \n',b)
@@ -82,8 +82,8 @@ end
 b=[sum(xu.*cp1),sum(xu.*hp1),sum(xu.*op1),sum(xu.*np1)]/(tot1/100);
 fprintf(' Carbon %.2f \n Hydrogen %.2f \n Oxygen %.2f \n Nitrogen %.2f \n',b)
 
-%writematrix(xu,'HTL_Data.xlsx','Sheet',1,'Range','B26')
-%writematrix(1/sum(xu/d1),'HTL_Data.xlsx','Sheet',1,'Range','G35')
+writematrix(xu,'HTL_Data.xlsx','Sheet',1,'Range','B26')
+writematrix(1/sum(xu/d1),'HTL_Data.xlsx','Sheet',1,'Range','G35')
    
 hold on
 plot(bpopt,xopt)
@@ -109,8 +109,8 @@ b=[sum(x0.*cp),sum(x0.*hp),sum(x0.*op),sum(x0.*np)]/(tot/100);
 fprintf(' Carbon %.2f \n Hydrogen %.2f \n Oxygen %.2f \n Nitrogen %.2f \n',b)
 fprintf(' Protein %.2f \n Carbohydrates %.2f \n Lipid %.2f \n Lignin %.2f \n',a)
 
-%writematrix(x0,'HTL_Data.xlsx','Sheet',2,'Range','B1')
-%writematrix(1/sum(x0/d),'HTL_Data.xlsx','Sheet',2,'Range','G13')
+writematrix(x0,'HTL_Data.xlsx','Sheet',2,'Range','B1')
+writematrix(1/sum(x0/d),'HTL_Data.xlsx','Sheet',2,'Range','G13')
 
 
 
@@ -126,8 +126,8 @@ end
 b=[sum(xo.*cp1),sum(xo.*hp1),sum(xo.*op1),sum(xo.*np1)]/(tot1/100);
 fprintf(' Carbon %.2f \n Hydrogen %.2f \n Oxygen %.2f \n Nitrogen %.2f \n',b)
 
-%writematrix(xo,'HTL_Data.xlsx','Sheet',2,'Range','B17')
-%writematrix(1/sum(xo/d1),'HTL_Data.xlsx','Sheet',2,'Range','G24')
+writematrix(xo,'HTL_Data.xlsx','Sheet',2,'Range','B17')
+writematrix(1/sum(xo/d1),'HTL_Data.xlsx','Sheet',2,'Range','G24')
 hold on 
 plot(bpopt,xopt)
 plot(bp1,cumsum(xo/100))
@@ -148,8 +148,8 @@ end
 b=[sum(xu.*cp1),sum(xu.*hp1),sum(xu.*op1),sum(xu.*np1)]/(tot1/100);
 fprintf(' Carbon %.2f \n Hydrogen %.2f \n Oxygen %.2f \n Nitrogen %.2f \n',b)
 
-%writematrix(xu,'HTL_Data.xlsx','Sheet',2,'Range','B26')
-%writematrix(1/sum(xu/d1),'HTL_Data.xlsx','Sheet',2,'Range','G35')
+writematrix(xu,'HTL_Data.xlsx','Sheet',2,'Range','B26')
+writematrix(1/sum(xu/d1),'HTL_Data.xlsx','Sheet',2,'Range','G35')
    
 hold on 
 plot(bpopt,xopt)
@@ -178,8 +178,8 @@ b=[sum(x0.*cp),sum(x0.*hp),sum(x0.*op),sum(x0.*np)]/(sum(x0)/100);
 
 fprintf(' Carbon %.2f \n Hydrogen %.2f \n Oxygen %.2f \n Nitrogen %.2f \n',b)
 fprintf(' Protein %.2f \n Carbohydrates %.2f \n Lipid %.2f \n Lignin %.2f \n',a)
-%writematrix(x0,'HTL_Data.xlsx','Sheet',3,'Range','B1')
-%writematrix(1/sum(x0/d),'HTL_Data.xlsx','Sheet',3,'Range','G13')
+writematrix(x0,'HTL_Data.xlsx','Sheet',3,'Range','B1')
+writematrix(1/sum(x0/d),'HTL_Data.xlsx','Sheet',3,'Range','G13')
   
 
 
@@ -202,8 +202,8 @@ ylabel('Recovered Mass fraction');
 legend('Expected ','Optimized')
 hold off
 
-%writematrix(xo,'HTL_Data.xlsx','Sheet',3,'Range','B17')
-%writematrix(1/sum(xo/d1),'HTL_Data.xlsx','Sheet',3,'Range','G24')
+writematrix(xo,'HTL_Data.xlsx','Sheet',3,'Range','B17')
+writematrix(1/sum(xo/d1),'HTL_Data.xlsx','Sheet',3,'Range','G24')
 
 
 
@@ -226,8 +226,8 @@ plot(bp1,cumsum(xu/100))
 xlabel('Boiling Point °C');
 ylabel('Recovered Mass fraction');
 legend('Expected  Upgraded','Optimized Upgraded')
-%writematrix(xu,'HTL_Data.xlsx','Sheet',3,'Range','B26')
-%writematrix(1/sum(xu/d1),'HTL_Data.xlsx','Sheet',3,'Range','G35')
+writematrix(xu,'HTL_Data.xlsx','Sheet',3,'Range','B26')
+writematrix(1/sum(xu/d1),'HTL_Data.xlsx','Sheet',3,'Range','G35')
     
     
     case 4       %PSO
@@ -250,8 +250,8 @@ b=[sum(x0.*cp),sum(x0.*hp),sum(x0.*op),sum(x0.*np)]/(sum(x0)/100);
 
 fprintf(' Carbon %.2f \n Hydrogen %.2f \n Oxygen %.2f \n Nitrogen %.2f \n',b)
 fprintf(' Protein %.2f \n Carbohydrates %.2f \n Lipid %.2f \n Lignin %.2f \n',a)
-%writematrix(x0,'HTL_Data.xlsx','Sheet',4,'Range','B1')
-%writematrix(1/sum(x0/d),'HTL_Data.xlsx','Sheet',4,'Range','G13')
+writematrix(x0,'HTL_Data.xlsx','Sheet',4,'Range','B1')
+writematrix(1/sum(x0/d),'HTL_Data.xlsx','Sheet',4,'Range','G13')
  
 
 Data_Out;           %Biocrude
@@ -277,8 +277,8 @@ ylabel('Recovered Mass fraction');
 legend('Expected ','Optimized')
 hold off
 
-%writematrix(xo,'HTL_Data.xlsx','Sheet',4,'Range','B17')
-%writematrix(1/sum(xo/d1),'HTL_Data.xlsx','Sheet',4,'Range','G24')
+writematrix(xo,'HTL_Data.xlsx','Sheet',4,'Range','B17')
+writematrix(1/sum(xo/d1),'HTL_Data.xlsx','Sheet',4,'Range','G24')
 
 
 Data_Up;      %Updated Biocrude
@@ -304,12 +304,11 @@ xlabel('Boiling Point °C');
 ylabel('Recovered Mass fraction');
 legend('Expected  Upgraded','Optimized Upgraded')
 
-%writematrix(xu,'HTL_Data.xlsx','Sheet',4,'Range','B26')
-%writematrix(1/sum(xu/d1),'HTL_Data.xlsx','Sheet',4,'Range','G35')
+writematrix(xu,'HTL_Data.xlsx','Sheet',4,'Range','B26')
+writematrix(1/sum(xu/d1),'HTL_Data.xlsx','Sheet',4,'Range','G35')
    
     otherwise
         
 disp('Please choose betwenn 1-4')
 HTL_Opt
 end
-toc
