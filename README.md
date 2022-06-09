@@ -20,7 +20,7 @@ The input of this Matlab package is imported from an excel File called HTL_Data.
 
 The sixth sheet contains data for the feedstock, while the seventh sheet contains data for the biocrude and the ninth sheet contains data for the upgraded biocrude. 
 
-The user is prompted to change the input to his needs, but ONLY THE GREEN HIGHLIGHTED CELLS.
+The user is prompted to change the input to his needs, but ONLY THE GREEN HIGHLIGHTED CELLS in sheets 6,7,9.
 
 In sheet 8 there is also a database of compounds from which the user can choose.
 
