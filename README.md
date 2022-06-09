@@ -8,7 +8,7 @@ It is written purely in Matlab language. It is self-contained. There is no exter
 This package was designed on Matlab R2020b but can run fine on MatlabR2016 or later.
 # Instructions
 -------
-Download the package to a local folder.
+Download the compressed file (HTL_Final.rar) and exctract it in a local folder.
 Run Matlab and navigate to that local folder directory.
 Run the script HTL_Opt and choose the option that you want according to the list below:
 1. Optimization using SQP algorithm
