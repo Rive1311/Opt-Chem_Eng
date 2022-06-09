@@ -30,10 +30,6 @@ This can be easily done by navigating to Home > Editing > Sort & Filter > Custom
 
 If you want to add more constraints, it is handier to do it using the Firefly Algorithm (line 32). 
 
-Also, changing the total sum from the excel file will only change this constraint in options 1 and 3. 
-
-The user should change it manually in the Firefly Algorithm. (options 2,4)
-
 Also note than when you run the HTL_Opt script, the excel file should be closed.
 
 Finally, at this time this package is mostly focused on optimizing the biocrude, so the data of the input  cannot be modified yet, but this is my near – future plans.
