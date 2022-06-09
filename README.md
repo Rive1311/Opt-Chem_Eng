@@ -20,7 +20,7 @@ The input of this Matlab package is imported from an excel File called HTL_Data.
 
 The sixth sheet contains data for the feedstock, while the seventh sheet contains data for the biocrude and the ninth sheet contains data for the upgraded biocrude. 
 
-The user is prompted to change the input to his needs, but only the green highlighted cells.
+The user is prompted to change the input to his needs, but ONLY THE GREEN HIGHLIGHTED CELLS.
 
 In sheet 8 there is also a database of compounds from which the user can choose.
 
@@ -28,7 +28,7 @@ Every time the user changes the input for biocrude data, it is necessary to sort
 
 This can be easily done by navigating to Home > Editing > Sort & Filter > Custom Sort > Options and then choose ‘Sort left to right’ and then press ‘OK’ and then choose ‘Sort by row 3’ and press ‘OK’. 
 
-If you want to add more constraints, it is handier to do it using the Firefly Algorithm (line 32). 
+If you want to add more constraints, it is handier to do it using the Firefly Algorithm (line 22) or for better results through F_In/Out/Up but be carefull to express these constraints as squared differences. 
 
 Also note than when you run the HTL_Opt script, the excel file should be closed.
 
