@@ -9,7 +9,7 @@ VarSize=[1 nVar];                 % Size of Decision Variables Matrix
 VarMin=0;                         % Lower Bound of Variables
 VarMax= 100;                      % Upper Bound of Variables
 %% PSO Parameters
-MaxIt=300;                        % Maximum Number of Iterations
+MaxIt=200;                        % Maximum Number of Iterations
 nPop=100;                         % Population Size (Swarm Size)
 % PSO Parameters
 w=1;                              % Inertia Weight
