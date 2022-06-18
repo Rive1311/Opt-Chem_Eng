@@ -28,11 +28,11 @@ Every time the user changes the input for biocrude data, it is necessary to sort
 
 This can be easily done by navigating to Home > Editing > Sort & Filter > Custom Sort > Options and then choose ‘Sort left to right’ and then press ‘OK’ and then choose ‘Sort by row 3’ and press ‘OK’. 
 
-If you want to add more constraints, it is handier to do it using the Firefly Algorithm (line 22) or for better results through F_In/Out/Up but be carefull to express these constraints as squared differences. 
+If you want to add more constraints, it is handier to do it using the Firefly Algorithm (line 22) or for better results through F_In/Out/Up but be carefull to express these constraints as relative differences squared . 
 
 Also note than when you run the HTL_Opt script, the excel file should be closed.
 
-Finally, at this time this package is mostly focused on optimizing the biocrude, so the data of the input  cannot be modified yet, but this is my near – future plans.
+Finally, at this time this package is mostly focused on optimizing the biocrude, so the data of the biomass cannot be modified yet, but this is my near – future plans.
 Sheets 1,2,3,4 display the concentration results of each component for each occasion respectively, while Sheet 5 sums up and compares the results from each algorithm.
 The last sheet contains the experimental data used for plotting the TBP curves.
 # Feedback
