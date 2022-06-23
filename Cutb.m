@@ -1,0 +1,21 @@
+f1=(max(cumsum(xo( bp1(1,:)<100))));
+f12=(max(cumsum(xo( bp1(1,:)<150))));
+f14=(max(cumsum(xo( bp1(1,:)<193))));
+f13=(max(cumsum(xo( bp1(1,:)<200))));
+f2=(max(cumsum(xo( bp1(1,:)<250))));
+f15=(max(cumsum(xo( bp1(1,:)<271))));
+f3=(max(cumsum(xo( bp1(1,:)<300))));
+f4=(max(cumsum(xo( bp1(1,:)<350))));
+f5=(max(cumsum(xo( bp1(1,:)<400))));
+f16=(max(cumsum(xo( bp1(1,:)<425))));
+f6=(max(cumsum(xo( bp1(1,:)<450))));
+f7=(max(cumsum(xo( bp1(1,:)<500))));
+f17=(max(cumsum(xo( bp1(1,:)<510))));
+f8=(max(cumsum(xo( bp1(1,:)<550))));
+f18=(max(cumsum(xo( bp1(1,:)<564))));
+f9=(max(cumsum(xo( bp1(1,:)<600))));
+f10=(max(cumsum(xo( bp1(1,:)<650))));
+f11=(max(cumsum(xo( bp1(1,:)<700))));
+cutb=[f1,f12,f13,f2,f3,f4,f5,f6,f7,f8,f9,f10,f11];
+cut=[f14,f15-f14,f16-f15,f18-f16,f11-f18];
+fprintf(' Naptha %.2f \n Kerosene %.2f \n Gas Oil %.2f \n Vacuum Gas Oil %.2f \n Residue %.2f \n',cut)
