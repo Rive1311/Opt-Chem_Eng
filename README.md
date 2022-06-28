@@ -35,6 +35,12 @@ Also note than when you run the HTL_Opt script, the excel file should be closed.
 Finally, at this time this package is mostly focused on optimizing the biocrude, so the data of the biomass cannot be modified yet, but this is my near – future plans.
 Sheets 1,2,3,4 display the concentration results of each component for each occasion respectively, while Sheet 5 sums up and compares the results from each algorithm.
 The last sheet contains the experimental data used for plotting the TBP curves.
+
+#References
+-------
+1.	S. Mostapha Kalami Heris, Implementation of Particle Swarm Optimization in MATLAB, Yarpiz, 2015, www.yarpiz.com
+2.	Xin-She Yang, Nature-Inspired Metaheuristic Algorithms, Second Edition, Luniver Press, (2010)
+
 # Feedback
 -------
 If you find any bug or have any suggestion, please do file issues. I am graceful for any feedback and will do my best to improve this package.
